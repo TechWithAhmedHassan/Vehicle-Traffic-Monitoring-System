@@ -109,7 +109,7 @@ class CentroidTracker:
         return self.objects, self.boxes
 
 # -------------------- main counting script --------------------
-VIDEO_PATH = "./video.mp4"
+VIDEO_PATH = "./video1.mp4"
 FRAME_WIDTH = 900   # choose to fit your screen
 FRAME_HEIGHT = 600
 MIN_AREA = 1500     # tune this: bigger for fewer false small blobs
@@ -201,3 +201,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
